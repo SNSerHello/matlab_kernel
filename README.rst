@@ -2,7 +2,8 @@
 A Matlab kernel for Jupyter
 ===========================
 
-build wheel::
+Build wheel
+------------
 
     $ python3 setup.py bdist_wheel --universal
 
@@ -14,9 +15,13 @@ Install `Jupyter Notebook <http://jupyter.readthedocs.org/en/latest/install.html
 Installation
 ------------
 
-Install using::
+Install by pip::
 
     $ pip install matlab_kernel
+
+Install by conda::
+
+    $ conda install matlab_kernel -c conda-forge
 
 or ``pip install git+https://github.com/Calysto/matlab_kernel`` for the dev version.
 

@@ -2,6 +2,9 @@
 A Matlab kernel for Jupyter
 ===========================
 
+build wheel::
+    $ python3 setup.py bdist_wheel --universal
+
 Prerequisites
 -------------
 Install `Jupyter Notebook <http://jupyter.readthedocs.org/en/latest/install.html>`_ and the

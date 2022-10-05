@@ -3,6 +3,7 @@ A Matlab kernel for Jupyter
 ===========================
 
 build wheel::
+
     $ python3 setup.py bdist_wheel --universal
 
 Prerequisites
